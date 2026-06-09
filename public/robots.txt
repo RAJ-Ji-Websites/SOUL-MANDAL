@@ -1,0 +1,32 @@
+# Robots.txt for Soul Mandal - Best Wedding Planner in Indore
+# https://www.soulmandal.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.soulmandal.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Allow search engines to index all pages
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Block common unnecessary files
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /api/
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /src/

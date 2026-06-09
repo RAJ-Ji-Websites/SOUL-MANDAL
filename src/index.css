@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html, body {
+  background-color: #0D0608;
+  overflow-x: hidden;
+}
+
+@theme {
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'DM Sans', sans-serif;
+  --color-void: #0D0608;
+  --color-surface: #1A1114;
+  --color-maroon: #731945;
+  --color-gold: #EDCA3F;
+  --color-saffron: #C4843B;
+  --color-ivory: #F5EDE7;
+  --color-linen: #D4B896;
+  --color-plum: #3B1426;
+}
